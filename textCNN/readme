@@ -1,0 +1,9 @@
+主要是对textCNN的git进行阅读理解~
+
+1.将 data目录 下的train.txt 和test.txt 替换成所示格式的数据
+2.对 cnn_model.py 的 TCNNConfig() 里的 num_classes 进行修改
+3.对 data_loader.py 的 load_category() 方法的 categories 修改
+4.运行run_cnn.py
+
+只对在windows下的train方法进行了测试~ 对只有一个filtersize 和多个filtersize 也进行了对比~
+对char和word级别的分词也进行了对比~ 好像都差不多~
